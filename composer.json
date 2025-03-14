@@ -1,0 +1,23 @@
+{
+    "name": "beastbytes/yii-dataview-assets",
+    "type": "library",
+    "description": "Assests for Yii3 Dataview widgets",
+    "keywords": [
+        "yii3",
+        "extension",
+        "dataview",
+        "assets"
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "yiisoft/assets": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\Yii\\Dataview\\Assets\\": "src"
+        }
+    }
+}
