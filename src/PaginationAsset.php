@@ -17,5 +17,5 @@ class PaginationAsset extends AssetBundle
     public array $js = [
         'js/pagination.js',
     ];
-    public ?string $sourcePath = '@assetsSource';
+    public ?string $sourcePath = __DIR__ . '/../../resources/assets';
 }
